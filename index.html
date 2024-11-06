@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Site Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Reset styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            display: flex;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Sidebar styling */
+        .sidebar {
+            width: 250px;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        .sidebar a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            margin: 10px 0;
+        }
+
+        /* Content area styling */
+        .content {
+            margin-left: 250px;
+            padding: 20px;
+            width: calc(100% - 250px);
+        }
+
+        section {
+            padding: 50px 0;
+        }
+
+        /* Styling for section headers */
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar">
+        <h2>Your Site</h2>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="content">
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to the homepage of your GitHub Pages site.</p>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>This is the about section. Add information about yourself here.</p>
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+            <p>List your services here.</p>
+        </section>
+
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <p>Add some testimonials here.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Add your contact information here.</p>
+        </section>
+    </div>
+</body>
+</html>
